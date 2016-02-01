@@ -6,10 +6,14 @@ puts donuts.length
 puts donuts[3]
 #How can you assign donuts in this box to classmates (think of classmates as variables)
 Daniel = [2]
+puts Daniel
 Dean = [11]
+puts Dean
 Ned = [8]
+puts Ned
 James = [0]
-classmates = [Daniel, Dean, Ned, James]
+puts James
+
 #Find a method that lets you search the box of donuts to see if yours in there
 puts donuts.include? 'boston creme'
 #If you took a donut from this array, what method would you use to completely remove it from the array..err, box
